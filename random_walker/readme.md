@@ -1,4 +1,4 @@
-## Test header 2
+## Random Walking rectangle
 
 Test paragraph content
 
