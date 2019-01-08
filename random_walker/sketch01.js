@@ -15,15 +15,15 @@ function draw(){
 	
 	
 	walker.display();//display 
-	walker.step();
+	walker.step();//apply new x and/or y values
 	
 }
 
 
-//walker class.
+//walker class
 function Walker(){
 	
-	//set rectangle in the middle of the canvas. width and height already defined by createCanvas()
+	
 	this.x = width/2;
 	this.y = height/2;
 	
@@ -31,7 +31,6 @@ function Walker(){
 	//create a new rectangle when this function is called
 	this.display = function (){
 		stroke(0);
-//		point(this.x, this.y);
 		rect(this.x, this.y, 2, 2);
 	}
 	
@@ -39,7 +38,7 @@ function Walker(){
 	this.step = function(){
 		
 		//random number between 0 and 4. floor set the value to the lowest integer.
-		var choice = floor(random(4));//floor and random are p5 functions
+		var choice = floor(random(4));
 		
 		//check the choice value and change x or y accordingly
 		switch(choice){
