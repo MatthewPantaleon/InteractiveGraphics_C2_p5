@@ -8,17 +8,17 @@ Below are the setup and draw functions that setup the canvas, background, rectan
 
 function setup(){
 	
-	createCanvas(500, 500);
-	background(200, 200, 200);
-	walker = new Walker();
+createCanvas(500, 500);
+background(200, 200, 200);
+walker = new Walker();
 	
 }
 
 
 function draw(){
 	
-	walker.display();
-	walker.step();
+walker.display();
+walker.step();
 	
 }
 
