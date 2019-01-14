@@ -1,5 +1,3 @@
-var walker;
-
 var counts = [];
 var totalCounts = 20;
 
