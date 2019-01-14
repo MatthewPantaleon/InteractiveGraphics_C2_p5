@@ -8,16 +8,7 @@ Evrything is the same with the exception of the step function in the walker clas
 
 function Walker(){
 	
-	this.x = width/2;
-	this.y = height/2;
-	
-	
-	this.display = function (){
-		noStroke();
-		fill(139,69,19);
-		rect(this.x, this.y, 10, 10);
-		
-	}
+	/.../
 	
 	this.step = function(){
 		var cx = floor(random(-1, 2)) * 5;
