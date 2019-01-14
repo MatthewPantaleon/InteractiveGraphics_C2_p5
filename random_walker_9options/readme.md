@@ -11,8 +11,9 @@ function Walker(){
 	/.../
 	
 	this.step = function(){
-		var cx = floor(random(-1, 2)) * 5;
-		var cy = floor(random(-1, 2)) * 5;
+		//selects a random number between -1 to 1. The value is the added to the current x and y position of the recetangle.
+		var cx = floor(random(-1, 2));
+		var cy = floor(random(-1, 2));
 		
 		this.x += cx;
 		this.y += cy;
